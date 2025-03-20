@@ -1,0 +1,769 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CuisineListScreen Tests renders CuisineListScreen correctly and matches snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#fff",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "flexDirection": "row",
+          "height": 56,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "height": 40,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 40,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "black",
+                "fontSize": 20,
+              },
+              undefined,
+              {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          {
+            "color": "#333",
+            "flex": 1,
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        Italian
+      </Text>
+      <View
+        style={
+          {
+            "width": 40,
+          }
+        }
+      />
+    </View>
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "paddingHorizontal": 16,
+        }
+      }
+      data={
+        [
+          {
+            "currency": "EUR",
+            "deliveryCost": 2.15,
+            "deliveryTime": "20-25 min",
+            "id": "6109200ecdbea9077786439c",
+            "imageUrl": "https://www.top10berlin.de/wp-content/uploads/2023/11/top10berlin_feedback002.jpg",
+            "minOrder": 10,
+            "rating": 6,
+            "restaurantName": "Lunchpod",
+            "shortDesc": "Relax your belly",
+            "speciality": "DINNER",
+          },
+          {
+            "currency": "EUR",
+            "deliveryCost": 1.91,
+            "deliveryTime": "15-20 min",
+            "id": "6109200e7363c5fce8c4262e",
+            "imageUrl": "https://www.top10berlin.de/wp-content/uploads/2023/11/umami_top10berlin003.jpg",
+            "minOrder": 15,
+            "rating": 6,
+            "restaurantName": "Magneato",
+            "shortDesc": "Soul for food",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+            testID="cuisine-item"
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "white",
+                  "borderColor": "#ddd",
+                  "borderRadius": 12,
+                  "borderWidth": 1,
+                  "elevation": 3,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 2,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 5,
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 180,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="cover"
+                    source={
+                      {
+                        "priority": "normal",
+                        "uri": "https://www.top10berlin.de/wp-content/uploads/2023/11/top10berlin_feedback002.jpg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "backgroundColor": "rgba(0, 0, 0, 0.5)",
+                      "bottom": 0,
+                      "height": 180,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#fff",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                    Closed
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "padding": 12,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#333",
+                        "fontSize": 18,
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                    Lunchpod
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "#777",
+                        "fontSize": 14,
+                        "marginTop": 4,
+                      }
+                    }
+                  >
+                    Relax your belly
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "backgroundColor": "#e0f2fe",
+                      "borderRadius": 6,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 6,
+                      "width": 70,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#007aff",
+                        "fontWeight": "bold",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    20-25 min
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "marginVertical": 10,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  bbHeight="1"
+                  bbWidth="100%"
+                  focusable={false}
+                  height="1"
+                  style={
+                    [
+                      {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      {
+                        "flex": 0,
+                        "height": 1,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                  width="100%"
+                >
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                  >
+                    <RNSVGLine
+                      color="#000"
+                      fill={
+                        {
+                          "payload": 4278190080,
+                          "type": 0,
+                        }
+                      }
+                      propList={
+                        [
+                          "stroke",
+                          "strokeWidth",
+                          "strokeDasharray",
+                        ]
+                      }
+                      stroke={
+                        {
+                          "payload": 4291611852,
+                          "type": 0,
+                        }
+                      }
+                      strokeDasharray={
+                        [
+                          "4",
+                          "3",
+                        ]
+                      }
+                      strokeWidth="1"
+                      x1="0"
+                      x2="100%"
+                      y1="1"
+                      y2="1"
+                    />
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                    "marginBottom": 9,
+                    "marginLeft": 12,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#555",
+                      "fontSize": 14,
+                      "marginRight": 10,
+                    }
+                  }
+                >
+                  🚴 
+                  EUR
+                   
+                  2.15
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#555",
+                      "fontSize": 14,
+                      "marginRight": 10,
+                    }
+                  }
+                >
+                  🙂 
+                  6
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+            testID="cuisine-item"
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "white",
+                  "borderColor": "#ddd",
+                  "borderRadius": 12,
+                  "borderWidth": 1,
+                  "elevation": 3,
+                  "margin": 10,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 2,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 1,
+                  "shadowRadius": 5,
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 180,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="cover"
+                    source={
+                      {
+                        "priority": "normal",
+                        "uri": "https://www.top10berlin.de/wp-content/uploads/2023/11/umami_top10berlin003.jpg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "backgroundColor": "rgba(0, 0, 0, 0.5)",
+                      "bottom": 0,
+                      "height": 180,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#fff",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                    Closed
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "padding": 12,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#333",
+                        "fontSize": 18,
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                    Magneato
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "color": "#777",
+                        "fontSize": 14,
+                        "marginTop": 4,
+                      }
+                    }
+                  >
+                    Soul for food
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "backgroundColor": "#e0f2fe",
+                      "borderRadius": 6,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 6,
+                      "width": 70,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "#007aff",
+                        "fontWeight": "bold",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    15-20 min
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "marginVertical": 10,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  bbHeight="1"
+                  bbWidth="100%"
+                  focusable={false}
+                  height="1"
+                  style={
+                    [
+                      {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      {
+                        "flex": 0,
+                        "height": 1,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                  width="100%"
+                >
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                  >
+                    <RNSVGLine
+                      color="#000"
+                      fill={
+                        {
+                          "payload": 4278190080,
+                          "type": 0,
+                        }
+                      }
+                      propList={
+                        [
+                          "stroke",
+                          "strokeWidth",
+                          "strokeDasharray",
+                        ]
+                      }
+                      stroke={
+                        {
+                          "payload": 4291611852,
+                          "type": 0,
+                        }
+                      }
+                      strokeDasharray={
+                        [
+                          "4",
+                          "3",
+                        ]
+                      }
+                      strokeWidth="1"
+                      x1="0"
+                      x2="100%"
+                      y1="1"
+                      y2="1"
+                    />
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                    "marginBottom": 9,
+                    "marginLeft": 12,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#555",
+                      "fontSize": 14,
+                      "marginRight": 10,
+                    }
+                  }
+                >
+                  🚴 
+                  EUR
+                   
+                  1.91
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#555",
+                      "fontSize": 14,
+                      "marginRight": 10,
+                    }
+                  }
+                >
+                  🙂 
+                  6
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RNCSafeAreaView>
+`;

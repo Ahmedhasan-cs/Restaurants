@@ -1,0 +1,403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CuisineListScreen Tests renders CuisineListScreen correctly and matches snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#fff",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "paddingHorizontal": 16,
+          "paddingTop": 40,
+        }
+      }
+      data={
+        [
+          {
+            "count": 19,
+            "title": "chinese",
+          },
+          {
+            "count": 11,
+            "title": "indian",
+          },
+          {
+            "count": 16,
+            "title": "italian",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                {
+                  "aspectRatio": 2.1,
+                  "borderRadius": 16,
+                  "justifyContent": "center",
+                  "marginVertical": 8,
+                  "overflow": "hidden",
+                  "width": "100%",
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "testUri": "../../../src/assets/images/chineseImage.png",
+                  }
+                }
+                style={
+                  [
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "height": undefined,
+                      "width": "100%",
+                    },
+                    {
+                      "borderRadius": 16,
+                      "resizeMode": "cover",
+                    },
+                  ]
+                }
+              />
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                    "left": 16,
+                    "position": "absolute",
+                    "top": 16,
+                  }
+                }
+              >
+                Chinese
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "position": "absolute",
+                    "right": 16,
+                    "top": 16,
+                  }
+                }
+              >
+                19
+                 places
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                {
+                  "aspectRatio": 2.1,
+                  "borderRadius": 16,
+                  "justifyContent": "center",
+                  "marginVertical": 8,
+                  "overflow": "hidden",
+                  "width": "100%",
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "testUri": "../../../src/assets/images/indianImage.png",
+                  }
+                }
+                style={
+                  [
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "height": undefined,
+                      "width": "100%",
+                    },
+                    {
+                      "borderRadius": 16,
+                      "resizeMode": "cover",
+                    },
+                  ]
+                }
+              />
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                    "left": 16,
+                    "position": "absolute",
+                    "top": 16,
+                  }
+                }
+              >
+                Indian
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "position": "absolute",
+                    "right": 16,
+                    "top": 16,
+                  }
+                }
+              >
+                11
+                 places
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                {
+                  "aspectRatio": 2.1,
+                  "borderRadius": 16,
+                  "justifyContent": "center",
+                  "marginVertical": 8,
+                  "overflow": "hidden",
+                  "width": "100%",
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "testUri": "../../../src/assets/images/italianImage.png",
+                  }
+                }
+                style={
+                  [
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "height": undefined,
+                      "width": "100%",
+                    },
+                    {
+                      "borderRadius": 16,
+                      "resizeMode": "cover",
+                    },
+                  ]
+                }
+              />
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "fontWeight": "bold",
+                    "left": 16,
+                    "position": "absolute",
+                    "top": 16,
+                  }
+                }
+              >
+                Italian
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "position": "absolute",
+                    "right": 16,
+                    "top": 16,
+                  }
+                }
+              >
+                16
+                 places
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RNCSafeAreaView>
+`;
